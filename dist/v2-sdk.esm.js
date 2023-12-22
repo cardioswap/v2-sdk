@@ -15,7 +15,7 @@ import IUniswapV2Pair from '@cardioswap/v2-core/build/contracts/IUniswapV2Pair.j
 var _SOLIDITY_TYPE_MAXIMA;
 var ChainId;
 (function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 369] = "MAINNET";
+  ChainId[ChainId["MAINNET"] = 42220] = "MAINNET";
   ChainId[ChainId["BSCTESTNET"] = 97] = "BSCTESTNET";
 })(ChainId || (ChainId = {}));
 var TradeType;
@@ -29,8 +29,8 @@ var Rounding;
   Rounding[Rounding["ROUND_HALF_UP"] = 1] = "ROUND_HALF_UP";
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(Rounding || (Rounding = {}));
-var FACTORY_ADDRESS = '0x692888d1d359be06cB9EFFA47eB946E9ecA695aC';
-var INIT_CODE_HASH = '0x883fb58464f65c11b31140b18ada41e7a0edae8695ffedbd43d3b6150e8375cb';
+var FACTORY_ADDRESS = '0x2d32661f52eB55c9109F2EEF5FBc405DA0136608';
+var INIT_CODE_HASH = '0xc539ded66e13fbce7d7f1493a82578705b9fa662a7c94db89c311b3f97014f20';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000);
 // exports for internal consumption
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
@@ -40,7 +40,7 @@ var THREE = /*#__PURE__*/JSBI.BigInt(3);
 var FIVE = /*#__PURE__*/JSBI.BigInt(5);
 var TEN = /*#__PURE__*/JSBI.BigInt(10);
 var _100 = /*#__PURE__*/JSBI.BigInt(100);
-var _997 = /*#__PURE__*/JSBI.BigInt(997);
+var _997 = /*#__PURE__*/JSBI.BigInt(970);
 var _1000 = /*#__PURE__*/JSBI.BigInt(1000);
 var SolidityType;
 (function (SolidityType) {
